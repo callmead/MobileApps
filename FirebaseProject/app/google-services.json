@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "165078234981",
+    "firebase_url": "https://fir-project-a74ff.firebaseio.com",
+    "project_id": "fir-project-a74ff",
+    "storage_bucket": "fir-project-a74ff.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:165078234981:android:db262ad6df436086",
+        "android_client_info": {
+          "package_name": "edu.utep.cs.cs4330.firebaseproject"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "165078234981-e3f5ss9bm7euiav4ad7r04evqo5tadgh.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "edu.utep.cs.cs4330.firebaseproject",
+            "certificate_hash": "49a744cafdcdcb75ab3274e01c0a85b0b59c8402"
+          }
+        },
+        {
+          "client_id": "165078234981-dj0bo4ve1gm7j2theahsm71n6ftcr686.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyArV7QadFcrCzJ63Ugv-ZkPLeCLmqwMY5E"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "165078234981-dj0bo4ve1gm7j2theahsm71n6ftcr686.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

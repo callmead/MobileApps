@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="edu.utep.cs.cs4330.firebaseproject">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".LoginActivity"
+            android:label="Login Firebase Project">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".Signup"
+            android:label="Sign up">
+        </activity>
+
+        <activity
+            android:name=".MainActivity"
+            android:label="Firebase Project"
+            android:parentActivityName=".LoginActivity">
+        </activity>
+
+        <activity
+            android:name=".DataEntry"
+            android:label="Add/Update item details"
+            android:parentActivityName=".MainActivity">
+        </activity>
+    </application>
+
+</manifest>

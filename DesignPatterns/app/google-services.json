@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "794095863405",
+    "firebase_url": "https://designpatterns-9b8db.firebaseio.com",
+    "project_id": "designpatterns-9b8db",
+    "storage_bucket": "designpatterns-9b8db.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:794095863405:android:0cf93fa24a46b6cf",
+        "android_client_info": {
+          "package_name": "edu.utep.cs.cs4330.designpatterns"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "794095863405-p0bh5dio6jobo3ient8s10s1qu5bf671.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAVHfO32lCzZ9cS1WuvFEMjSPcPtru2CJE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

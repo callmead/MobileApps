@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/lblUID"
+        android:layout_width="95dp"
+        android:layout_height="42dp"
+        android:text="User Id:"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <TextView
+        android:id="@+id/lblPIN"
+        android:layout_width="95dp"
+        android:layout_height="46dp"
+        android:text="PIN:"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@+id/lblUID"
+        tools:layout_editor_absoluteY="73dp" />
+
+    <EditText
+        android:id="@+id/txtUID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="user name"
+        app:layout_constraintTop_toTopOf="@+id/lblUID"
+        tools:layout_editor_absoluteX="127dp" />
+
+    <EditText
+        android:id="@+id/txtPIN"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPassword|numberPassword"
+        app:layout_constraintStart_toStartOf="@+id/txtUID"
+        app:layout_constraintTop_toTopOf="@+id/lblPIN" />
+
+    <Button
+        android:id="@+id/btnSubmit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SUBMIT"
+        app:layout_constraintStart_toStartOf="@+id/txtPIN"
+        tools:layout_editor_absoluteY="130dp" />
+
+</android.support.constraint.ConstraintLayout>

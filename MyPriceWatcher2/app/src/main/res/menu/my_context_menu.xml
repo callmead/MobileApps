@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <!--
+    <item
+        android:id="@+id/priceChange"
+        android:title="Fetch price updates"
+        />
+    -->
+    <item
+        android:id="@+id/viewWeb"
+        android:title="View selected item's web page"
+        />
+    <!--
+    <item
+        android:id="@+id/addItem"
+        android:title="Add a new item"
+        />
+    -->
+
+    <item
+        android:id="@+id/deleteItem"
+        android:title="Delete selected item"
+        />
+</menu>
